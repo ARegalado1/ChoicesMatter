@@ -50,4 +50,4 @@ jobs:
       # tests the published site instead of this copy of the code, so it cannot
       # tell us anything about a pull request (see BACKLOG.md).
       - name: Run the tests
-        run: python -m pytest --ignore tests/test_web.py
+        run: python -m pytest --ignore tests/test_web.py -rs
